@@ -1,0 +1,10 @@
+### Publish
+GET http://localhost:8080/postMessage?
+    message=Message with Spaces&
+    info=INFOOoo&
+    count=1
+
+
+### Pull
+GET http://localhost:8080/pull?
+    subscription1=projects/XXX/subscriptions/New-sub
